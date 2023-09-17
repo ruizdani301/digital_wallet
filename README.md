@@ -1,6 +1,6 @@
-# c13-30-t-python
-
 ## Digital wallet
+
+- go to deployment: https://c13-30-t-python.vercel.app/login
 
 This project seeks to implement a virtual wallet with actions such as
 
