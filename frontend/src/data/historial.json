@@ -1,0 +1,26 @@
+[
+    {
+        "categoria": "pago_persona",
+        "nombre": "Oscar Woss",
+        "descripción": "Pago Persona",
+        "tiempo": "hoy",
+        "fecha": "28/08/2023",
+        "valor": 30
+    },
+    {
+        "categoria": "pago_factura",
+        "nombre": "Servicio Electrónico",
+        "descripción": "Pago Factura",
+        "tiempo": "ayer",
+        "fecha": "28/08/2023",
+        "valor": 70
+    },
+    {
+        "categoria": "pago_factura",
+        "nombre": "Alimentos",
+        "descripción": "Pago Factura",
+        "tiempo": "hace un mes",
+        "fecha": "25/07/2023",
+        "valor": 100
+    }
+]

@@ -1,0 +1,46 @@
+[{
+    "id": 1,
+    "first_name": "Blake",
+    "last_name": "Slafford",
+    "identity_number": 1020469744,
+    "email": "bslafford0@upenn.edu",
+    "phone": "548 515 3394",
+    "password": "nM102p{hS",
+    "avatar": "https://i.pravatar.cc/150?img=1"
+  }, {
+    "id": 2,
+    "first_name": "Sigismondo",
+    "last_name": "Cowwell",
+    "identity_number": 487986532,
+    "email": "scowwell1@netlog.com",
+    "phone": "336 411 2590",
+    "password": "jH07nIE1fp}PP",
+    "avatar": "https://i.pravatar.cc/150?img=2"
+  }, {
+    "id": 3,
+    "first_name": "Valenka",
+    "last_name": "McFaell",
+    "identity_number": 65465787854,
+    "email": "vmcfaell2@gov.uk",
+    "phone": "247 624 4786",
+    "password": "hK2x&+e@aSLU",
+    "avatar": "https://i.pravatar.cc/150?img=3"
+  }, {
+    "id": 4,
+    "first_name": "Nero",
+    "last_name": "Cuseick",
+    "identity_number": 1020465487,
+    "email": "ncuseick3@eepurl.com",
+    "phone": "399 674 9601",
+    "password": "pM8tY*Sm/tpf{V",
+    "avatar": "https://i.pravatar.cc/150?img=4"
+  }, {
+    "id": 5,
+    "first_name": "Glory",
+    "last_name": "Mattevi",
+    "identity_number": 47855541,
+    "email": "gmattevi4@ovh.net",
+    "phone": "381 591 1181",
+    "password": "zR8<Qy{EiE#|)O()Ml%c",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  }]

@@ -1,0 +1,142 @@
+[
+    {
+        "code": 1,
+        "country": "Estados Unidos"
+    },
+    {
+        "code": 44,
+        "country": "Reino Unido"
+    },
+    {
+        "code": 33,
+        "country": "Francia"
+    },
+    {
+        "code": 49,
+        "country": "Alemania"
+    },
+    {
+        "code": 81,
+        "country": "Japón"
+    },
+    {
+        "code": 82,
+        "country": "Corea del Sur"
+    },
+    {
+        "code": 86,
+        "country": "China"
+    },
+    {
+        "code": 91,
+        "country": "India"
+    },
+    {
+        "code": 7,
+        "country": "Rusia"
+    },
+    {
+        "code": 61,
+        "country": "Australia"
+    },
+    {
+        "code": 39,
+        "country": "Italia"
+    },
+    {
+        "code": 41,
+        "country": "Suiza"
+    },
+    {
+        "code": 64,
+        "country": "Nueva Zelanda"
+    },
+    {
+        "code": 46,
+        "country": "Suecia"
+    },
+    {
+        "code": 34,
+        "country": "Singapur"
+    },
+    {
+        "code": 353,
+        "country":  "Irlanda"
+    },
+    {
+        "code": 972,
+        "country": "Israel"
+    },
+    {
+        "code": 971,
+        "country": "Emiratos Árabes Unidos"
+    },
+    {
+        "code": 966,
+        "country":  "Arabia Saudita"
+    },
+    {
+        "code": 52,
+        "country": "México"
+    },
+    {
+        "code": 54,
+        "country":  "Argentina"
+    },
+    {
+        "code": 55,
+        "country": "Brasil"
+    },
+    {
+        "code": 56,
+        "country": "Chile"
+    },
+    {
+        "code": 57,
+        "country":  "Colombia"
+    },
+    {
+        "code": 58,
+        "country": "Venezuela"
+    },
+    {
+        "code": 51,
+        "country":  "Perú"
+    },
+    {
+        "code": 593,
+        "country": "Ecuador"
+    },
+    {
+        "code": 502,
+        "country": "Guatemala"
+    },
+    {
+        "code": 503,
+        "country":  "El Salvador"
+    },
+    {
+        "code": 506,
+        "country": "Costa Rica"
+    },
+    {
+        "code": 507,
+        "country": "Panamá"
+    },
+    {
+        "code": 504,
+        "country": "Honduras"
+    },
+    {
+        "code": 591,
+        "country": "Bolivia"
+    },
+    {
+        "code": 598,
+        "country":  "Uruguay"
+    },
+    {
+        "code": 595,
+        "country": "Paraguay"
+    }
+]

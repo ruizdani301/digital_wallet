@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Corresponsal bancario</title>
+    <!-- Agrega jQuery desde un CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Estilo para centrar elementos */
+        body {
+            text-align: center; /* Centra el contenido horizontalmente */
+        }
+
+        h1 {
+            margin-top: 50px; /* Espacio superior para el título */
+        }
+
+        form {
+            display: inline-block; /* Hace que el formulario sea un bloque en línea */
+            text-align: left; /* Centra el contenido del formulario */
+            margin: 0 auto; /* Centra el formulario horizontalmente */
+            padding: 20px; /* Agrega un poco de espacio alrededor del formulario */
+            border: 1px solid #ccc; /* Agrega un borde para destacar el formulario */
+            border-radius: 5px; /* Redondea los bordes del formulario */
+        }
+
+        /* Estilo para los elementos del formulario */
+        form label, form input, form button {
+            display: block; /* Hace que los elementos sean bloques */
+            margin-bottom: 10px; /* Agrega espacio entre los elementos */
+            width: 100%; /* Ajusta el ancho al 100% del formulario */
+        }
+
+        form button {
+            margin-top: 20px; /* Agrega espacio superior al botón */
+        }
+
+        .opciones {
+            display: flex; /* Hace que los divs dentro de "opciones" se distribuyan en línea */
+            flex-direction: row; /* Muestra los divs en una columna vertical */
+            align-items: center; /* Centra los divs verticalmente en el contenedor */
+            padding: 20px; /* Agrega un poco de espacio alrededor del formulario */
+
+        }
+
+        .opcion {
+            display: flex; /* Hace que las opciones sean bloques */
+            flex-direction: row; /* Muestra los divs en una columna vertical */
+            margin-top: 10px; /* Agrega espacio superior entre las opciones */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Corresponsal Bancario</h1>
+    <form method="post">
+        {% csrf_token %}
+        <!-- Div para las opciones de Recarga o Retiro -->
+        <div class="opciones">
+            <div class="opcion">
+                <label for="recarga">Recarga</label>
+                <input type="radio" id="recarga" name="opcion" value="recarga" checked>
+            </div>
+
+            <div class="opcion">
+                <label for="retiro">Retiro</label>
+                <input type="radio" id="retiro" name="opcion" value="retiro">
+            </div>
+        </div>
+
+        <!-- Campo para la cédula -->
+        <label for="{{ form.cedula.id_for_label }}" id="label_cedula">Cédula:</label>
+        {{ form.cedula }}
+        
+        <!-- Campo para el código de validación o cantidad de recarga -->
+        <label for="{{ form.codigo_validacion.id_for_label }}" id="label_codigo_validacion">Código de Validación:</label>
+        {{ form.codigo_validacion }}
+
+        <!-- Opciones de selección entre "Recarga" y "Retiro" -->
+        <button type="submit">Realizar Operación</button>
+    </form>
+
+    <script>
+        $(document).ready(function() {
+            // Función para actualizar los labels según la opción seleccionada
+            function actualizarLabels() {
+                var opcionSeleccionada = $("input[name='opcion']:checked").val();
+        
+                if (opcionSeleccionada === "recarga") {
+                    // Si se selecciona "Recarga," cambia el label a "Cantidad Recarga"
+                    $("#label_codigo_validacion").text("Cantidad Recarga:");
+                } else {
+                    // Si se selecciona "Retiro," restaura el label a "Código de Validación"
+                    $("#label_codigo_validacion").text("Código de Validación:");
+                }
+            }
+        
+            // Maneja el cambio en la selección de opciones
+            $("input[name='opcion']").change(actualizarLabels);
+        
+            // Llama a la función para actualizar los labels al cargar la página
+            actualizarLabels();
+        });
+        </script>
+         
+
+</body>
+</html>
